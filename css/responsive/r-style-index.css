@@ -1,0 +1,61 @@
+@media screen and (min-width:320px)and (max-width:720px) /*ancho fijo celular*/
+{
+    #mimodal
+    {
+    padding-top: 50px; /*mueve el logo, bienvenido y formulario*/
+    }   
+    button.inisesion
+    {
+    border-radius: 8px 8px 8px 8px;
+        position: absolute;
+        top:13px;
+        right:70px;
+        padding: 10px 10px ;
+        font-family: avan;
+        font-size: 12px;
+        color:white;
+        background-color:crimson;
+        border: none;
+        transition: all 0.3s ease;
+        cursor:pointer;
+
+        
+    }
+    a.cerrar{
+   display:block; 
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top:10px;
+    background-color:red;
+    color:white;
+    border:none;
+    font-size: 20px;
+    cursor:pointer;
+    padding: 10px 24px;
+    border-radius: 5px 5px 5px 5px;
+    align-items: center;
+        -webkit-align-items: center;
+
+    }
+    .contenido-modal
+    {
+    width: 320px; /*ancha el formulario*/
+    }    
+    .modal-body 
+    {
+    height: px; /*le da el alto al formulario */
+    }
+ 
+}
+@media screen and (min-width:721px) and (max-width:1600px)/*ancho fijo portatil*/
+{
+    
+    
+}   
+
+
+@media screen and (min-width:1601px) and (max-width:1920px)/*ancho fijo pc de mesa*/
+{
+   
+}
